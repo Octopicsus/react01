@@ -21,7 +21,7 @@ input {
     border-radius: 50px;
     height: 30px;
     width: 200px;
-    color: rgba(255, 255, 255, 0.267);
+    color: rgba(255, 255, 255, 0.493);
     padding-left: 16px;
     border: 1px solid rgba(58, 58, 58, 0.671);
     font-weight: 500;
@@ -29,4 +29,8 @@ input {
 
 input:focus {
     outline: none;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.267);
 }
