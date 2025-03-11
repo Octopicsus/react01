@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "./App.css";
 
-import RenderPage from "./components/renderPage/renderPage";
-import Button from "./components/Button/Button";
+import RenderPage from "./components/widgets/renderPage/renderPage";
+import Button from "./components/widgets/Button/Button";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
-  const maxPagesCount = 2;
+  const maxPagesCount = 3;
 
   const changePage = () => {
     if (currentPage === maxPagesCount) {

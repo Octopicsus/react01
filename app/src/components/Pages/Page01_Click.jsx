@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Button from "../Button/Button";
+import Button from "../widgets/Button/Button";
 
 const Page01_Click = () => {
   const [switcher, setSwitcher] = useState(false);
   const [customColor, setNewColor] = useState("customBTN");
-  const [message, setNewMessage] = useState("Click");
+  const [message, setNewMessage] = useState("CLICK");
 
   const switcherBtn = () => {
     setSwitcher(!switcher);
@@ -16,7 +16,7 @@ const Page01_Click = () => {
       setNewMessage("Ahoj!");
       setNewColor("placeholder");
     } else {
-      setNewMessage("Click");
+      setNewMessage("CLICK");
       setNewColor("customBTN");
     }
   };

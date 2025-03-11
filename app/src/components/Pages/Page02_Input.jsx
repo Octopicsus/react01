@@ -1,9 +1,7 @@
-import TypeInput from "../TypeInput/TypeInput"
+import TypeInput from "../widgets/TypeInput/TypeInput";
 
 const Page02_Input = () => {
-  return (
-    <TypeInput />
-  )
-}
+  return <TypeInput />;
+};
 
 export default Page02_Input;
