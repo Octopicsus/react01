@@ -20,7 +20,7 @@ function App() {
     <div>
       <div className="wrapper">
         <RenderPage currentPage={currentPage} />
-        <Button onClick={changePage}>next</Button>
+        <Button onClick={changePage}>{currentPage=== 3 ? 'done': 'next'}</Button>
       </div>
     </div>
   );
