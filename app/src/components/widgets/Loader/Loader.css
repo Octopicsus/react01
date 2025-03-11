@@ -1,20 +1,32 @@
 .loaderSection {
-    background-color: rgb(27, 53, 34);
+    background-color: rgb(7, 219, 78);
     width: 56px;
     height: 20px;
     border-radius: 8px;
 }
 
+.filler {
+    background-color: rgb(27, 53, 34);
+}
+
 .loader {
-    position: absolute;
     display: flex;
     gap: 5px;
     flex-direction: column;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
-.filler {
-    background-color: rgb(7, 219, 78);
+.loaderWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h5 {
+    position: absolute;
+    z-index: -1;
+    color: rgba(41, 41, 41, 0.199);
+    font-size: 230px;
 }

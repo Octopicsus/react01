@@ -60,7 +60,17 @@ button {
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 14px;
+}
 
+.increaseButton{
+    margin-top: 24px;
+    background-color: #00000000;
+    color: rgba(255, 255, 255, 0.267);
+    width: 80px; 
+    height: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+   
 }
 
 @keyframes rainbow-flow {
