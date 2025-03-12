@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Loader.css";
 
-function Loader({ levelsCount = 7 }) {
+function Loader({ levelsCount = 8 }) {
   const [value, setValue] = useState(0);
   const maxRange = 100;
 
@@ -42,9 +42,9 @@ function Loader({ levelsCount = 7 }) {
     <div className="loaderWrapper">
       <div className="loader">{loaderSections}</div>
       <button className="increaseButton" onClick={handleIncrease}>
-        Click
+        |||
       </button>
-      <h5>{value === 101 ? "100%" : `${value}%`}</h5>
+      <h5>{value === 101 ? "100" : `${value}`}</h5>
     </div>
   );
 }
